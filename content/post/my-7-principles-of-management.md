@@ -1,11 +1,11 @@
 ---
 title: "My 7 Principles of Management"
-date: 2017-01-01T00:00:01+00:01
-draft: true
+date: 2017-01-01T01:01:01+01:01
+draft: false
+tags: ["management"]
 ---
 
-# My 7 Principles of Management
-As a manager I like to follow what I call "my 7 principles of management" when I work with my team. These are:
+As a manager I like to follow what I call "my 7 principles of management" when I work with my team. Sometimes we find ourselves overwhelmed and under pressure. Having a set of clear principles that are easy to remember can help us go back in track quickly and easily. Mine are based on my own experience and have helped me in the past in numerous occasions. These are:
 
 1. A manager must be supportive and work for the team
 2. A manager must be flexible and adapt to the situation at hand
