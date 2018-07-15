@@ -6,16 +6,14 @@ baseurl = "https://plopcas.github.io/blog/"
 canonifyurls = true
 title = "Pedro Lopez"
 author = "admin"
-theme = "pixyll"
-disqusShortname = "sitename"
+theme = "pixyllalt"
+disqusShortname = "plopcas"
 
 [indexes]
   category = "categories"
   tag = "tags"
 
 [params]
-  search_engine = true
   googleAnalytics = "UA-121538856-1"
   twitter_username = "plopcas"
   paginate = true
-  

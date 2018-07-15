@@ -1,0 +1,7 @@
+name = "pixyllalt"
+description = "A simple, beautiful theme for Hugo."
+author = ""
+license = "MIT"
+source_repo = ""
+tags = ["blog", "minimal"]
+min_version = 0.1
