@@ -1,7 +1,7 @@
 ---
 title: "Building Self-Awareness as a Manager"
 date: 2018-06-01T20:00:00+00:00
-draft: true
+draft: false
 tags: ["leadership"]
 author: "Pedro Lopez"
 ---
