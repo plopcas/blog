@@ -17,5 +17,7 @@ disqusShortname = "plopcas"
   googleAnalytics = "UA-121538856-1"
   twitter_username = "plopcas"
   paginate = true
+  description = "Management and software engineering blog"
   github = "https://github.com/plopcas"
   twitter = "https://twitter.com/plopcas"
+  linkedin = "https://www.linkedin.com/in/plopcas"

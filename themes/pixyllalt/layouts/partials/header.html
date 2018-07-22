@@ -2,10 +2,15 @@
   <div class="mt2 wrap">
     <div class="measure">
       <a href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}" class="site-title">{{ .Site.Title }}</a>
-      <nav class="site-nav right">
+      <nav class="site-nav right" style="margin-bottom:0px!important">
       {{ partial "navigation.html" . }}
       </nav>
       <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="mt1 wrap">
+    <div class="measure post-meta" style="color:#333">
+      {{ .Site.Params.description }}
     </div>
   </div>
 </header>
