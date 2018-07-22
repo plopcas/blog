@@ -6,6 +6,8 @@ tags: ["leadership"]
 author: "Pedro Lopez"
 ---
 
+![image](/images/building-self-awareness-as-a-manager.jpg)
+
 For most people it is hard to objectively self-evaluate their work and behaviours. Great leaders learn to build strong self-awareness. There are two main sources of information that can help you with this.
 
 <!--more-->
