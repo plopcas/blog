@@ -2,7 +2,7 @@
 title: "Providing Purpose"
 date: 2018-07-30T20:00:00+00:00
 draft: false
-tags: ["management"]
+tags: ["management", "leadership"]
 author: "Pedro Lopez"
 ---
 
