@@ -21,3 +21,6 @@ disqusShortname = "plopcas"
   github = "https://github.com/plopcas"
   twitter = "https://twitter.com/plopcas"
   linkedin = "https://www.linkedin.com/in/plopcas"
+
+[social]
+  twitter = "plopcas"

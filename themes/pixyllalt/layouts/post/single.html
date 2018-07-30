@@ -5,20 +5,27 @@
     <div class="measure">
       <div class="post-header mb2">
         <h1 class="py1">{{ .Title }}</h1>
-        <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}</span><br>
-        {{ $baseurl := .Site.BaseURL }}
+        <div>
+          <span class="post-meta" style="margin-right:10px;">{{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}</span>
+          {{ partial "social_links.html" . }}
+        </div>
       </div>
 
       <article class="post-content">
       {{ .Content }}
       </article>
 
+      {{ $baseurl := .Site.BaseURL }}
       <p class="post-meta">{{ i18n "tags" }}:&nbsp;
         {{ range $i, $e := .Params.tags }}
             {{if $i}},&nbsp;{{end}}
             <a href="{{ $baseurl }}{{ $.Site.LanguagePrefix }}/tags/{{ . }}">{{ . }}</a>
         {{ end }}
       </p>
+
+      <div style="margin: 0 0 10px 0;">
+        {{ partial "social_links.html" . }}
+      </div>
 
       {{ partial "comments.html" . }}
     </div>

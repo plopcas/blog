@@ -1,6 +1,5 @@
-<nav class="social-icons icons">
-<a class="fa fa-rss rss" href="/index.xml"></a>
-{{ if isset .Site.Params "twitter_username" }}
-<a class="fa fa-twitter twitter" href="https://twitter.com/{{ .Site.Params.twitter_username }}"></a>
-{{ end }}
-</nav>
+{{ $title := .Title }}
+{{ $url := printf "%s" .Permalink | absLangURL }}
+<span id="sharing" style="position:relative;top:4px;">
+  <a href="http://twitter.com/share?url={{ $url }}&text={{ $title }}&via={{with .Site.Social.twitter }}{{ . }}{{ end }}" class="twitter-share-button" data-show-count="false" aria-label="Share on Twitter">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</span>
