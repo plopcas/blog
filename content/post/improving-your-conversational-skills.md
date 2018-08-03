@@ -6,7 +6,7 @@ tags: ["management", "leadership"]
 author: "Pedro Lopez"
 ---
 
-![image](/images/improving-your-communication-skills.jpg)
+![image](/images/improving-your-conversational-skills.jpg)
 
 At work, great communicators have an advantage. They know how to have great conversations. Personality helps, but this is a skill that anyone can learn. Here I explore a few tips to improve your conversational skills.
 
