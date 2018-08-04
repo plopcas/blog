@@ -12,7 +12,7 @@ At work, great communicators have an advantage. They know how to have great conv
 
 <!--more-->
 
-- Talk slowly: if you are like me, you will tend to speak faster than you should, particularly when you have a lot to say. Typically, good talkers do not rush into a conversation. Take your time to think. You will be perceived as more calmed and centred. And you will help the other person pace their dialog too.
+- Talk slowly: if you are like me, you will tend to speak faster than you should, particularly when you have a lot to say. Typically, good talkers do not rush into a conversation. Take your time to think. You will be perceived as calmer and more centred. And you will help the other person "pace" their dialog too.
 
 - Focus on the conversation at hand: do not multitask! You will hear the message more clearly when you focus only on the conversation. This shows respect, and when you give them undivided attention, they will respect you more as well.
 
