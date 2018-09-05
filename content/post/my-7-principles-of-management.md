@@ -42,7 +42,7 @@ Additionally, you must also be aware of what is going on in your industry outsid
 
 High performers get bored quickly if they do net get a constant flow of engaging and challenging work. As a manager you should be on the watch for this, and actively seek for interesting projects for your team. You should create your own if nothing comes from the business.
 
-This will help your not team, not only to sharpen their skills, but also to raise their levels of engagement and commitment with the organisation.
+This will help your team, not only to sharpen their skills, but also to raise their levels of engagement and commitment with the organisation.
 
 #### 5. A manager must be trustworthy and lead by example
 
@@ -50,7 +50,7 @@ Trust is one of the truly essential elements of high performing teams. If people
 
 Some key behaviours that can help build trust are showing integrity in every decision you make, genuinely seeking for opportunities to help others achieve their goals, collaborating instead of dictating and admitting when you are wrong.
 
-Additionally, I always think that I would not ask my team to do something I would not do it myself. This idea of leading by example is one of the most powerful behaviours you can show to make your team trust you.
+Additionally, I would not ask my team to do something I would not do myself. This idea of leading by example is one of the most powerful behaviours you can show to make your team trust you.
 
 #### 6. A manager must be caring and empathic
 
