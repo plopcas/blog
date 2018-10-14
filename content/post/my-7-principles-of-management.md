@@ -22,7 +22,7 @@ As a manager I like to follow what I call "my 7 principles of management" when I
 6. A manager must be caring and empathic
 7. A manager must be transparent and operate with candour
 
-From these principles you can probably see what management style looks like. I will explore each of the principles in more detail below.
+From these principles you can probably see what my management style looks like. I will explore each of the principles in more detail below.
 
 #### 1. A manager must be supportive and work for team
 
