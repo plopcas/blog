@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Pedro Lopez</title>
+    <link>https://pedrolopez.tk/tags/design/</link>
+    <description>Recent content in Design on Pedro Lopez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 04 Nov 2018 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://pedrolopez.tk/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Pragmatic Approach to System Design</title>
+      <link>https://pedrolopez.tk/post/a-pragmatic-approach-to-system-design/</link>
+      <pubDate>Sun, 04 Nov 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://pedrolopez.tk/post/a-pragmatic-approach-to-system-design/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://pedrolopez.tk/images/a-pragmatic-approach-to-system-design.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Designing a new system is not an easy task. In this post I will introduce a pragmatic approach to system design that will help you tackle any system in a repeatable and consistent way.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

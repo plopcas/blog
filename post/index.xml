@@ -6,10 +6,23 @@
     <description>Recent content in Posts on Pedro Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 09 Aug 2018 20:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Nov 2018 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pedrolopez.tk/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Pragmatic Approach to System Design</title>
+      <link>https://pedrolopez.tk/post/a-pragmatic-approach-to-system-design/</link>
+      <pubDate>Sun, 04 Nov 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://pedrolopez.tk/post/a-pragmatic-approach-to-system-design/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://pedrolopez.tk/images/a-pragmatic-approach-to-system-design.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Designing a new system is not an easy task. In this post I will introduce a pragmatic approach to system design that will help you tackle any system in a repeatable and consistent way.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Developing Your Critical Thinking</title>

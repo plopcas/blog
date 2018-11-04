@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pedro Lopez</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="https://pedrolopez.tk/post/a-pragmatic-approach-to-system-design/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="https://pedrolopez.tk/css/combined-min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="https://pedrolopez.tk/favicon.ico">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="https://pedrolopez.tk" class="site-title">Pedro Lopez</a>
+      <nav class="site-nav right" style="margin-bottom:0px!important">
+      <a href="https://www.linkedin.com/in/plopcas">About</a>
+<a href="https://twitter.com/plopcas">Contact</a>
+<a href="https://pedrolopez.tk/tags/">Tags</a>
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="mt1 wrap">
+    <div class="measure post-meta" style="color:#333">
+      Management and software engineering blog
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" style="padding-top:0rem!important" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py1">A Pragmatic Approach to System Design</h1>
+        <div>
+          <span class="post-meta" style="margin-right:10px;">Nov 4, 2018 by Pedro Lopez</span>
+          
+
+<span id="sharing" style="position:relative;top:4px;">
+  <a href="http://twitter.com/share?url=https%3a%2f%2fpedrolopez.tk%2fpost%2fa-pragmatic-approach-to-system-design%2f&text=A%20Pragmatic%20Approach%20to%20System%20Design&via=plopcas" class="twitter-share-button" data-show-count="false" aria-label="Share on Twitter">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</span>
+
+        </div>
+      </div>
+
+      <article class="post-content">
+      <p><img src="https://pedrolopez.tk/images/a-pragmatic-approach-to-system-design.jpg" alt="image" /></p>
+
+<p>Designing a new system is not an easy task. In this post I will introduce a pragmatic approach to system design that will help you tackle any system in a repeatable and consistent way.</p>
+
+<p></p>
+
+<p>This approach consists of four sections or steps:</p>
+
+<ul>
+<li>Requirements</li>
+<li>Capacity</li>
+<li>Application layers</li>
+<li>Optimisation</li>
+<li>Final considerations</li>
+</ul>
+
+<h4 id="1-requirements">1. Requirements</h4>
+
+<p>First clarify all the requirements. Ask your stakeholders. They could be a project manager, a product owner, a business analyst or even an interviewer (if that is what you are doing).</p>
+
+<p>Ask as many questions as you need to explore the details. Focus on two different groups of requirements.</p>
+
+<ol>
+<li>Functional: they specify something that the system should do, e.g. let user post tweets, send emails or upload photos.</li>
+<li>Non Functional: they describe how the system should behave, e.g. in terms of performance, scalability, capacity, availability, latency or security.</li>
+</ol>
+
+<p>Then take a moment to consider your design goals. Now is the time to balance some of those requirements and make compromises where necessary, e.g. consistency vs availability.</p>
+
+<h4 id="2-capacity">2. Capacity</h4>
+
+<p>How many users does your system have? How much data do you need? Now it&rsquo;s the time to clarify those, apply basic Maths and jot down the numbers. Remember that 1 character in UTF-8 can be between 1 and 4 bytes.</p>
+
+<p>Number of users, requests per second, gigabytes of memory&hellip; those are things that you are typically looking for here.</p>
+
+<h4 id="3-application-layers">3. Application layers</h4>
+
+<p>There will be three layers to consider in any system.</p>
+
+<ol>
+<li>Data layer: if you have a database, which type? SQL/NoSQL/Graph&hellip; Do you need tables? Design the schema now if you need one.</li>
+<li>API/UI: what kind of interface will your system have? a web UI or a REST API, are some of the options depending on what your system does. You might even have both. Design the API now if you need one, what endpoints, how would you name them and what data will they accept and return.</li>
+<li>Business logic: this is the meat in the middle, the code that actually solves the business problems that your project sponsor has. At this point you should consider different algorithms and techniques. If you don&rsquo;t know where to start, try first a naive approach and optimise later.</li>
+</ol>
+
+<p>At this point you should be able to draw a basic block diagram of your system. Don&rsquo;t worry to much about the details just yet, there is still room for optimisation. Use a whiteboard if you can, as you will have to move things around a few times most likely.</p>
+
+<h4 id="4-optimisation">4. Optimisation</h4>
+
+<p>There are at least four things to consider:</p>
+
+<ol>
+<li>Redundancy/replication: if you need high availability, you will need some kind of redundancy in the form of multiple nodes. Also, you will need to decide how the data will be replicated between those nodes.</li>
+<li>Sharding: similar concept but now for your database. Depending on what DB technology you used, sharding might come out of the box. But in any case is good to take a minute to consider the options.</li>
+<li>Caching: most likely some of the data in your application can be cached to reduce latency and improve performance. Look at different CDN options and in-app caching. Adding a key-value in memory data store like Redis is a great option to consider.</li>
+<li>Loadbalancing: finally, some of your services, depending on your capacity analysis, will require some form of loadbalancing so that the load is distributed between the nodes. Round-robin DNS and virtual IP are the most common ones.</li>
+</ol>
+
+<h4 id="5-final-considerations">5. Final considerations</h4>
+
+<p>I you followed these steps, you should now have a pretty comprehensive draft of your system. Spend a few minutes going through all the information that you collected and produced, making sure you covered all the requirements.</p>
+
+<p>Think about whether you will need any special kind of testing. Unit, integration, functional, load and security are the most common ones, and most likely you will need all of those.</p>
+
+<p>Consider aspects like infrastructure-as-code, containers, blue/green deployments and continuous integration. Your system should be compatible with these practices to be easily deployable and maintainable.</p>
+
+<p>It&rsquo;s worth at this point considering also how many resources you would need to build the system, in terms of teams, time and budget.</p>
+
+<p>And remember to share your design with other people! It&rsquo;s very easy to miss something and there is no silver bullet when it comes to system design, so a second pair of eyes is always useful.</p>
+      </article>
+
+      
+      <p class="post-meta">Tags:&nbsp;
+        
+            
+            <a href="https://pedrolopez.tk/tags/software">software</a>
+        
+            ,&nbsp;
+            <a href="https://pedrolopez.tk/tags/design">design</a>
+        
+      </p>
+
+      <div style="margin: 0 0 10px 0;">
+        
+
+<span id="sharing" style="position:relative;top:4px;">
+  <a href="http://twitter.com/share?url=https%3a%2f%2fpedrolopez.tk%2fpost%2fa-pragmatic-approach-to-system-design%2f&text=A%20Pragmatic%20Approach%20to%20System%20Design&via=plopcas" class="twitter-share-button" data-show-count="false" aria-label="Share on Twitter">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</span>
+
+      </div>
+
+      
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "plopcas" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+          <small>
+            Copyright &#169; 2018<br>
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="https://pedrolopez.tk/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+
+</body>
+</html>
+
