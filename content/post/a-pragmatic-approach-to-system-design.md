@@ -1,7 +1,7 @@
 ---
 title: "A Pragmatic Approach to System Design"
 date: 2018-11-04T20:00:00+00:00
-draft: true
+draft: false
 tags: ["software", "design"]
 author: "Pedro Lopez"
 ---
