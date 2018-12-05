@@ -8,7 +8,7 @@ author: "Pedro Lopez"
 
 ![image](/images/building-self-awareness-as-a-manager.jpg)
 
-For most people it is hard to objectively self-evaluate their work and behaviours. Great leaders learn to build strong self-awareness. There are two main sources of information that can help you with this.
+For most people, it is hard to objectively self-evaluate their work and behaviours. Great leaders learn to build strong self-awareness. There are two main sources of information that can help you with this.
 
 <!--more-->
 
@@ -28,6 +28,6 @@ Once you know who they are, approach them in private and ask them from their per
 
 #### Putting things together
 
-It is important to self-reflect on the data we can gather ourselves before asking others for their opinions. This way we will be more open to receive feedback.
+It is important to self-reflect on the data we can gather ourselves before asking others for their opinions. This way we will be more open to receiving feedback.
 
-Do this two or three times per year and you will have a developed a deeper self-awareness that will help you improve faster at work.
+Do this two or three times per year and you will have developed a deeper self-awareness that will help you improve faster at work.
