@@ -56,7 +56,7 @@ Without a viable solution, any negative feedback is rather useless. People might
 
 #### Set new goals
 
-If the old goals where misaligned, it's time to review them. Clarify grey areas and find new goals that are focused on recovering and getting back on track. Reassign some of the old but still important goals to someone else if possible. That way you'll create some space for them to focus on their improvement. Make sure you explain why you are doing it, or they might feel you lost your trust in them.
+If the old goals were misaligned, it's time to review them. Clarify grey areas and find new goals that are focused on recovering and getting back on track. Reassign some of the old but still important goals to someone else if possible. That way you'll create some space for them to focus on their improvement. Make sure you explain why you are doing it, or they might feel you lost your trust in them.
 
 Sometimes all they need is to relieve some stress, hit some wins, regain their confidence, and they are back in business.
 
@@ -64,7 +64,7 @@ Sometimes all they need is to relieve some stress, hit some wins, regain their c
 
 Sometimes low performers are unaware of the impact of their actions. They might think it's no big deal to miss a deadline here and there, or to produce some low quality hacks.
 
-Make them see the implications, how it's impacting team's morale, how other people need to fix issues they left unattended and how it's costing money and resources.
+Make them see the implications, how it's impacting team morale, how other people need to fix issues they left unattended and how it's costing money and resources.
 
 If understanding that their bad performance is making their team unhappy and putting their jobs at risk doesn't make them react, then nothing will.
 
