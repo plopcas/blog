@@ -1,7 +1,7 @@
 ---
 title: "Managing High Performers"
-date: 2019-01-20T20:00:00+00:00
-draft: true
+date: 2019-01-21T20:00:00+00:00
+draft: false
 tags: ["management"]
 ---
 
